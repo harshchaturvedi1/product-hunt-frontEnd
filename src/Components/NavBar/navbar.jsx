@@ -238,7 +238,7 @@ export function NavBar() {
               close
             </button>
             <Modaldiv>
-              <img src="Kitty.png" alt="" />
+              <img src="https://ph-static.imgix.net/category-tech/kitty.png?auto=format&auto=compress&codec=mozjpeg&cs=strip&w=100&h=92&fit=max&dpr=1" alt="" />
               <div className="text-content">
                 <h2>Sign up on Product Hunt</h2>
                 <p>
