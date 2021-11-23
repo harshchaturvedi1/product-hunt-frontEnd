@@ -18,7 +18,7 @@ export function NavBar() {
     axios({
       method: "post",
       mode: "no-cors",
-      url: "http://localhost:2345/user/login",
+      url: "https://product-hunt-backend.herokuapp.com/user/login",
       data: data,
     })
       .then(function (response) {
