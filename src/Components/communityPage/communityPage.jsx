@@ -14,6 +14,7 @@ export const Community = () => {
             method: "get",
             mode: "no-cors",
             url: `https://product-hunt-backend.herokuapp.com/discussion?page=${page}`,
+            // url: `http://localhost:2345/discussion?page=${page}`,
         })
             .then(function (response) {
                 setDiscussionData([...discussionData,...response.data.data])

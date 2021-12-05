@@ -17,10 +17,11 @@ const [Products , setProducts] = useState([])
     axios({
       method: "get",
       url: `https://product-hunt-backend.herokuapp.com/product`,
+      // url: `http://localhost:2345/product`,
   })
       .then(function (response) {
           setProducts(response.data)
-          console.log(response.data)
+          //console.log(response.data)
       })
       .catch(function (error) {
           console.log(error);

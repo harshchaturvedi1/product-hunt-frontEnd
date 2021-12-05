@@ -25,6 +25,7 @@ export default function CreateProductForm() {
     data.append("desc", desc)
     data.append("link", link)
     
+    // await axios.post("http://localhost:2345/product", data)
     await axios.post("https://product-hunt-backend.herokuapp.com/product", data)
       .then(res => {
       alert("Your Product has been Posted")
